@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #a8d5ba;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header .logo img {
+            height: 50px;
+        }
+
+        .header nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .header nav ul li {
+            display: inline;
+        }
+
+        .header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .jumbotron {
+            background-color: #d4ecd4;
+            color: #333;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .jumbotron h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .jumbotron p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .jumbotron .btn {
+            background-color: #6aa984;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .services {
+            background-color: #e9f5e9;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .services .service {
+            display: inline-block;
+            width: 23%;
+            margin: 0 1%;
+            text-align: center;
+        }
+
+        .services .service img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+
+        .news,
+        .agenda,
+        .gallery,
+        .organization {
+            padding: 50px 0;
+        }
+
+        .news h2,
+        .agenda h2,
+        .gallery h2,
+        .organization h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .news .news-item,
+        .agenda .agenda-item {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .news .news-item h3 {
+            margin-top: 0;
+        }
+
+        .news .news-item a,
+        .agenda .agenda-item a {
+            color: #6aa984;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .gallery .gallery-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery .gallery-item {
+            width: 45%;
+        }
+
+        .gallery .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .organization img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #a8d5ba;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/100x50" alt="Logo Wisata">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Destinasi</a></li>
+                    <li><a href="#">Akomodasi</a></li>
+                    <li><a href="#">Kuliner</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="jumbotron">
+        <div class="container">
+            <h2>Selamat Datang di Wisata Desa</h2>
+            <p>Nikmati keindahan dan keramahan wisata desa kami.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="service">
+                <img src="https://via.placeholder.com/100x100" alt="Destinasi Wisata">
+                <p>Destinasi Wisata</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/100x100" alt="Akomodasi">
+                <p>Akomodasi</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/100x100" alt="Kuliner">
+                <p>Kuliner</p>
+            </div>
+            <div class="service">
+                <img src="https://via.placeholder.com/100x100" alt="Event">
+                <p>Event</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <h2>Berita Terkini</h2>
+            <div class="news-item">
+                <h3>Festival Budaya Desa</h3>
+                <p>Festival Budaya Desa akan diadakan pada bulan ini dengan berbagai acara menarik...</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <div class="news-item">
+                <h3>Pembangunan Homestay Baru</h3>
+                <p>Desa wisata kami sedang membangun homestay baru untuk menambah kenyamanan wisatawan...</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+            <div class="news-item">
+                <h3>Pelatihan Kuliner Tradisional</h3>
+                <p>Pelatihan kuliner tradisional diadakan untuk meningkatkan kualitas makanan yang disajikan kepada
+                    wisatawan...</p>
+                <a href="#">Selengkapnya</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="agenda">
+        <div class="container">
+            <h2>Agenda Kegiatan</h2>
+            <div class="agenda-item">
+                <p>Jul 15, 2024 - Festival Budaya Desa</p>
+            </div>
+            <div class="agenda-item">
+                <p>Aug 20, 2024 - Lomba Memasak Kuliner Tradisional</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Galeri Foto & Video</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Galeri 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Galeri 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Galeri 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Galeri 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yoga Adi Putra. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
